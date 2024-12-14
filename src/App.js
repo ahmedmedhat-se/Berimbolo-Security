@@ -20,6 +20,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />}/>
+          <Route path='/berimbolo-security' element={<Home />}/>
           <Route path='/home' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/products' element={<Products />}/>

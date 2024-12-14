@@ -5,15 +5,17 @@ const Cart = () => {
     const [products, setProducts] = useState([]);
     const [selectedProduct, setSelectedProduct] = useState('');
 
+    const getSecurityProducts = async() => {
+        try {
+            const res = await axios.get("/Store/products.json");
+            setProducts(res.data);
+        } catch (error) {
+            console.error("Error Fetching Data : ", error)
+        }
+    }
+
     useEffect(() => {
-        axios
-            .get('')
-            .then((response) => {
-                setProducts(response.data);
-            })
-            .catch((error) => {
-                console.error('Error fetching products:', error);
-            });
+        getSecurityProducts();
     }, []);
 
     const handleProductChange = (e) => {
@@ -63,7 +65,7 @@ const Cart = () => {
                                         )}
                                         
                                         {selectedProduct && (
-                                            <button type="button" className="btn btn-primary btn-block btn-lg mt-4">
+                                            <button type="button" className="btn btn-primary btn-block w-100 d-block mt-4">
                                                 Add to Cart
                                             </button>
                                         )}

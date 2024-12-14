@@ -8,7 +8,7 @@ export const ProductProvider = ({ children }) => {
 
     const getSecurityProducts = async() => {
         try {
-            const res = await axios.get("");
+            const res = await axios.get("/Store/products.json");
             setProducts(res.data);
         } catch (error) {
             console.error("Error Fetching Data : ", error)
