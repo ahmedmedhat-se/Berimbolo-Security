@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "title": "Wireless Security Camera",
+      "description": "1080p HD camera with night vision, motion detection, and remote access via mobile app.",
+      "price": 120.99,
+      "image": "https://ctronics.com/cdn/shop/products/1.jpg?v=1655274885"
+    },
+    {
+      "id": 2,
+      "title": "Smart Door Lock",
+      "description": "Keyless entry system with fingerprint recognition and smartphone control.",
+      "price": 199.99,
+      "image": "https://images.pexels.com/photos/279810/pexels-photo-279810.jpeg?cs=srgb&dl=pexels-pixabay-279810.jpg&fm=jpg"
+    },
+    {
+      "id": 3,
+      "title": "CCTV Surveillance System",
+      "description": "Complete CCTV kit with four cameras, DVR, and 1TB storage.",
+      "price": 499.99,
+      "image": "https://domar.com/cdn/shop/products/rx8h9y-google.jpg?v=1720208666&width=1000"
+    },
+    {
+      "id": 4,
+      "title": "Home Alarm System",
+      "description": "Advanced alarm system with sensors for doors, windows, and motion detection.",
+      "price": 249.99,
+      "image": "https://img.freepik.com/premium-photo/home-security-system-control-panel-installation_1297101-21133.jpg?semt=ais_hybrid"
+    },
+    {
+      "id": 5,
+      "title": "Video Doorbell",
+      "description": "Wi-Fi enabled doorbell with HD video, two-way audio, and motion alerts.",
+      "price": 149.99,
+      "image": "https://www.lorex.com/cdn/shop/files/682704073010e4486a23079b906d343454a1dc3b1d8a664c7a9f15e644db1aef_800x.png?v=1718650384"
+    },
+    {
+      "id": 6,
+      "title": "Smart Indoor Camera",
+      "description": "Compact indoor camera with AI motion detection and real-time notifications.",
+      "price": 89.99,
+      "image": "https://pro.lorex.com/cdn/shop/files/697837c2970c0c85e0decde35a42b681be3e4bf90fa576067d92e11ed34ebcba.webp?v=1699337634&width=1200"
+    },
+    {
+      "id": 7,
+      "title": "Outdoor Security Light Camera",
+      "description": "Floodlight camera with 4K resolution, night vision, and siren.",
+      "price": 229.99,
+      "image": "https://m.media-amazon.com/images/I/41k-v6M9fZL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "GPS Tracker",
+      "description": "Portable GPS tracker for vehicles or personal items with live tracking.",
+      "price": 59.99,
+      "image": "https://www.wallpaperflare.com/static/135/104/954/navigation-satellite-landmark-map-wallpaper.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Fire and Smoke Detector",
+      "description": "Smart detector with voice alerts and app notifications.",
+      "price": 69.99,
+      "image": "https://media.istockphoto.com/id/1340874584/photo/smoke-detector-and-interlinked-fire-alarm-in-action-background.jpg?s=612x612&w=0&k=20&c=UOkGMd1E1ODLG2sZffU0fzo9wBE6jgl4HqvJ0OeUPWQ="
+    },
+    {
+      "id": 10,
+      "title": "24/7 Monitoring Subscription",
+      "description": "Professional monitoring service with real-time alerts and emergency response.",
+      "price": 49.99,
+      "image": "https://amcrest.com/media/catalog/product/cache/0bfa80a0505fea6aa5f9aa0683b0c7ee/a/m/am-lm24-1-giftbox_1.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Smart Smoke and Carbon Monoxide Detector",
+      "description": "Combination smoke and carbon monoxide detector with smartphone alerts and voice notifications.",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/617ZQYaxD0L.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Smart Security System Hub",
+      "description": "Central hub to control and integrate all your smart security devices with voice assistant compatibility.",
+      "price": 129.99,
+      "image": "https://m.media-amazon.com/images/I/81d2rg-yuEL.jpg"
+    }    
+  ]
+  

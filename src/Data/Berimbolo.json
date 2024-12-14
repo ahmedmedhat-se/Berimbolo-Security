@@ -1,0 +1,26 @@
+{
+    "company": {
+        "name": "Berimbolo Security",
+        "description": "Berimbolo Security specializes in providing comprehensive security solutions, including security risk assessments, alarm system installation, CCTV camera installation, and 24/7 monitoring services.",
+        "contact": {
+            "phone": "+1-800-123-4567",
+            "another-phone": "+1-008-321-7654",
+            "email": "contact@berimbolosecurity.com",
+            "address": "123 Security Street, City, Country",
+            "description": "We value clear communication and are always here to assist you. Whether you're looking for more information about our security solutions, have questions regarding installation, or need ongoing support, don't hesitate to reach out to us. Our team is ready to provide the expertise and service you need to ensure your property stays secure."
+        }
+    },
+    "services": {
+        "security-service": "Security Risk Assessment",
+        "security-service-image": "https://www.shutterstock.com/shutterstock/videos/1107828263/thumb/10.jpg?ip=x480",
+
+        "alarm-service": "Alarm System Installation",
+        "alarm-service-image": "https://st3.depositphotos.com/1010613/18382/i/450/depositphotos_183829368-stock-photo-cctv-camera-security-alarm-system.jpg",
+
+        "cctv-service": "CCTV Camera Installation",
+        "cctv-service-image": "https://img.freepik.com/premium-photo/cctv-camera-with-word-security-itgenerative-ai_841229-7679.jpg",
+
+        "monitoring-service": "24/7 Monitoring",
+        "monitoring-service-image": "https://img.freepik.com/free-vector/call-center-abstract-concept_335657-3001.jpg"
+    }
+}

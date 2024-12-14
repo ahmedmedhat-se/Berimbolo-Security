@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: #0a0920;
+}
+
+nav #offcanvasDarkNavbar .offcanvas-body,
+nav #offcanvasDarkNavbar .offcanvas-header {
+  background-color: #0a0920;
+}
+
+nav .nav-link {
+  margin-right: 15px;
+}
+
+nav #contact-btn {
+  color: #FF7F50;
+  background-color: black;
+}
+
+.home {
+  background-color: #110f34;
+  padding: 20px;
+}
+
+.home-card {
+  text-align: center;
+}
+
+.card-img-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-container {
+  max-height: 100%;
+  background-color: #110f34;
+  padding: 50px;
+}
+
+.products-container .row .col-md-3 {
+  padding: 20px;
+}
+
+.products-container .row h5 {
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.products-container .row h3 {
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  border: 0;
+}
+
+.products-container .row .col-md-3 .card {
+  background: rgb(11, 46, 68);
+  background: linear-gradient(90deg, rgba(11, 46, 68, 1) 0%, rgba(50, 4, 39, 1) 100%);
+  color: white;
+  border: 0;
+}
+
+.card .btn {
+  border: none;
+  background: rgb(19, 3, 61);
+  background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+.services-card {
+  background: rgb(11, 46, 68);
+  background: linear-gradient(90deg, rgba(11, 46, 68, 1) 0%, rgba(50, 4, 39, 1) 100%);
+  color: #ffffff;
+}
+
+.services, .about, .contact, .cart, .partner {
+  background-color: #110f34;
+  color: #ffffff;
+}
+
+.contact .card {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.711);
+}
+
+.contact #contact-form {
+  background: rgb(11, 46, 68);
+  background: linear-gradient(90deg, rgba(11, 46, 68, 1) 0%, rgba(50, 4, 39, 1) 100%);
+}
+
+#partner {
+  border: 0;
+}
+
+.carousel-control-prev.custom-control .carousel-control-prev-icon,
+.carousel-control-next.custom-control .carousel-control-next-icon {
+  background-color: #110f34;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+footer section, footer .copyrights {
+  background-color: #0a0920;
+  color: #ffffff;
+}
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1200px) {
+  nav .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home-card h1 {
+    font-size: 1.8rem;
+  }
+
+  .products-container {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-link {
+    margin-right: 10px;
+    font-size: 0.85rem;
+  }
+
+  .products-container .row {
+    padding: 25px;
+  }
+
+  .products-container .row .col-md-3 .card {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .card .btn {
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px 0;
+  }
+
+  .card .card-img-top {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  .contact .container .row .col .card {
+    border: 0;
+    box-shadow: none;
+  }
+
+  footer {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home-card h1 {
+    font-size: 1.3rem;
+  }
+
+  .products-container {
+    padding: 10px;
+  }
+
+  .products-container .row .col-md-3 {
+    padding: 8px;
+  }
+  
+  .products-container h5, .products-container h3 {
+    font-size: 0.9rem;
+  }
+}
