@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Berimbolo-Security/static/css/main.dce360bb.css",
+    "main.js": "/Berimbolo-Security/static/js/main.eb2a4b68.js",
+    "static/js/488.9a0b233b.chunk.js": "/Berimbolo-Security/static/js/488.9a0b233b.chunk.js",
+    "index.html": "/Berimbolo-Security/index.html",
+    "main.dce360bb.css.map": "/Berimbolo-Security/static/css/main.dce360bb.css.map",
+    "main.eb2a4b68.js.map": "/Berimbolo-Security/static/js/main.eb2a4b68.js.map",
+    "488.9a0b233b.chunk.js.map": "/Berimbolo-Security/static/js/488.9a0b233b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dce360bb.css",
+    "static/js/main.eb2a4b68.js"
+  ]
+}
