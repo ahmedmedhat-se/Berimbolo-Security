@@ -15,12 +15,14 @@ function Products() {
                     return (
                         <div className="col-md-3">
                             <div className="card h-100">
+                                <div className="card-header">
                                 <img src={product.image} alt={product.title}
                                     className="card-img-top" height={200} />
+                                </div>
                                 <div className="card-body">
                                     <h5 className="card-title">{product.title}</h5>
-                                    <p>{product.description}</p>
-                                    <p>Price : {product.price}$</p>
+                                    <p className="text-center">{product.description}</p>
+                                    <p>Price : {product.price}<span className="dollar">$</span></p>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/cart" className="btn w-100 d-block">

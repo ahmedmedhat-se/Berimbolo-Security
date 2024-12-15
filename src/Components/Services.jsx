@@ -11,7 +11,7 @@ const ServiceCard = ({ title, description, imageUrl }) => {
                     <p className="card-text text-light">{description}</p>
                 </div>
                 <div className="card-footer">
-                    <a href={imageUrl} target='_blank' className='btn mb-2'>Visit</a>
+                    <a href={imageUrl} target='_blank' className='btn w-100 d-block mb-2'>Visit</a>
                 </div>
             </div>
         </div>

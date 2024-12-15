@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import { faUserSecret } from "@fortawesome/free-solid-svg-icons/faUserSecret";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark p-4">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          Berimbolo Security
+          <FontAwesomeIcon className="icon" icon={faUserSecret} /> 
+          <span> Berimbolo</span> Security
         </Link>
         <button
           className="navbar-toggler"
@@ -37,8 +40,8 @@ function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <Link className="nav-link active" to="/home">
-                  Home
+                <Link className="nav-link active" to="/blog">
+                  Blog
                 </Link>
               </li>
               <li className="nav-item">

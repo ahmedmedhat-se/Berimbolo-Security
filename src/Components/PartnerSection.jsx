@@ -2,18 +2,29 @@ import React from 'react';
 
 function PartnerSection() {
   const partners = [
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 1'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 2'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 3'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 4'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 5'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 6'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 7'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 8'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 9'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 10'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 11'},
-    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg?1663680530', name: 'Partner 12'},
+    { image: 'https://www.electro-co.com/uploads/projphotos/e0be51e9df46fe83c070ad6cd0dc8d23.jpeg', name: 'WE'},
+
+    { image: 'https://entarabi.com/wp-content/uploads/2024/11/Orange.png', name: 'Orange'},
+
+    { image: 'https://www.ricoh.lu/media/Vodafone%20WT%20640x420%20-%20Mobile%20updated%20_tcm84-59120.jpg', name: 'Vodafone'},
+
+    { image: 'https://media.business-humanrights.org/media/images/Etisalat_Misr-Logo.2e16d0ba.fill-1200x630.png', name: 'Eitsalat'},
+
+    { image: 'https://www.palmhillsdevelopments.com/assets/images/header/Logo.svg', name: 'Palm Hills'},
+
+    { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-QYBGqtho3CgUh3XK1omyOgv1eqGA0FjIA&s', name: 'Oracle'},
+
+    { image: 'https://nightingalehq.ai/knowledgebase/glossary/what-is-aws/aws.png', name: 'AWS'},
+
+    { image: 'https://www.aleqt.com/sites/default/files/styles/scale_830/public/a/509489_150592.jpg?itok=cmSFzMz5', name: 'MBC Groups'},
+
+    { image: 'https://media.filfan.com/NewsPics/FilfanNew/large/339362_0.png', name: 'Rotana'},
+
+    { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4g6y-is-gv0xHmOsH1yBuOAvXz3ymCZc7w&s', name: 'Flip With Rick'},
+
+    { image: 'https://www.checkpoint.com/wp-content/uploads/emaar-logo-300x180px.png', name: 'Emaar'},
+
+    { image: 'https://esgnews.com/wp-content/uploads/2023/09/IBM.png', name: 'IBM'},
   ];
 
 
@@ -49,7 +60,7 @@ function PartnerSection() {
                     <div className="card h-100" id='partner'>
                       <img
                         src={partner.image}
-                        className="card-img-top"
+                        className="card-img-top h-100"
                         alt={partner.name}
                       />
                     </div>

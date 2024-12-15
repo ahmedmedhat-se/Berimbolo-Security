@@ -22,7 +22,7 @@ const About = () => {
                         </div>
 
                         <div className="services-section mb-4">
-                            <h4 className="mb-3">Our Services:</h4>
+                            <h4 className="mb-3 text-center">Our Services:</h4>
                             <ul>
                                 <li><strong>{services['security-service']}</strong></li>
                                 <li><strong>{services['alarm-service']}</strong></li>
@@ -34,13 +34,13 @@ const About = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <h2 className="text-center mb-4">Find Us</h2>
+                        <h2 className="text-center mb-4">Contacts</h2>
                         <div className="about-description mb-4">
                             <p>{company.contact.description}</p>
                         </div>
 
                         <div className="contact-section">
-                            <h4 className="mb-3">Find Us:</h4>
+                            <h4 className="text-center mb-3">Find Us:</h4>
                             <p><strong>Phone:</strong> {company.contact.phone}</p>
                             <p><strong>Another Phone:</strong> {company.contact['another-phone']}</p>
                             <p><strong>Email:</strong> <a href={`mailto:${company.contact.email}`}>{company.contact.email}</a></p>

@@ -1,3 +1,5 @@
+/* Global CSS Styles To The Whole Website */
+/* Global CSS Styles Section Starts*/
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,8 +14,52 @@ code {
     monospace;
 }
 
+.blog, .services, .about, .contact, .cart, .partner {
+  background-color: #110f34;
+  color: #ffffff;
+}
+
+.dollar {
+  color: #85BB65;
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 1000;
+}
+
+.top-button {
+  background-color: #4843b3;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.top-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+/* Global CSS Styles Section Ends*/
+
+/* Navbar Component Style Starts */
 nav {
   background-color: #0a0920;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav .navbar-brand span{
+  color: #FF7F50;
+}
+
+nav .navbar-brand .icon {
+  color: rgb(212, 152, 0);
 }
 
 nav #offcanvasDarkNavbar .offcanvas-body,
@@ -23,28 +69,81 @@ nav #offcanvasDarkNavbar .offcanvas-header {
 
 nav .nav-link {
   margin-right: 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+nav .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4843b3;
+  transition: width 0.3s ease-in-out;
+}
+
+nav .nav-link:hover::before {
+  width: 100%;
+}
+
+nav .nav-link:hover {
+  color: #4843b3;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 nav #contact-btn {
   color: #FF7F50;
   background-color: black;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
+nav #contact-btn:hover {
+  background-color: #4843b3;
+  transform: scale(1.05);
+}
+
+/* Navbar Component Style Ends */
+
+/* Home Component Style Starts */
 .home {
   background-color: #110f34;
   padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+/* Home Component Style Ends */
+
+/* Blog Component Style Starts */
+.blog {
+  color: #ffffff;
 }
 
-.home-card {
-  text-align: center;
+.blog .blog-card {
+  background: rgb(11, 46, 68);
+  background: linear-gradient(90deg, rgba(11, 46, 68, 1) 0%, rgba(50, 4, 39, 1) 100%);
+  color: #ffffff;
+  border: 0;
+  transition: transform 0.3s ease-in-out;
 }
 
-.card-img-overlay {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.blog .blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+/* Blog Component Style Ends */
 
+/* About Component Style Starts */
+.about .about-section {
+  animation: slideInUp 0.8s ease-in-out;
+}
+/* About Component Style Ends */
+
+/* Product Component Style Starts */
 .products-container {
   max-height: 100%;
   background-color: #110f34;
@@ -53,6 +152,7 @@ nav #contact-btn {
 
 .products-container .row .col-md-3 {
   padding: 20px;
+  animation: slideInUp 0.8s ease-in-out;
 }
 
 .products-container .row h5 {
@@ -69,6 +169,7 @@ nav #contact-btn {
 
 .card {
   border: 0;
+  transition: transform 0.3s ease-in-out;
 }
 
 .products-container .row .col-md-3 .card {
@@ -77,6 +178,7 @@ nav #contact-btn {
   color: white;
   border: 0;
 }
+/* Products Component Style Ends */
 
 .card .btn {
   border: none;
@@ -86,26 +188,42 @@ nav #contact-btn {
   transition: all .5s ease;
 }
 
+.card .btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Services Component Style Starts */
 .services-card {
   background: rgb(11, 46, 68);
   background: linear-gradient(90deg, rgba(11, 46, 68, 1) 0%, rgba(50, 4, 39, 1) 100%);
   color: #ffffff;
+  animation: slideInUp 0.8s ease-in-out;
 }
 
-.services, .about, .contact, .cart, .partner {
-  background-color: #110f34;
-  color: #ffffff;
+.services .services-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+/* Services Component Style Ends */
 
+/* Contact Component Style Starts */
 .contact .card {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.711);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.533);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.contact .card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 .contact #contact-form {
   background: rgb(11, 46, 68);
   background: linear-gradient(90deg, rgba(11, 46, 68, 1) 0%, rgba(50, 4, 39, 1) 100%);
 }
+/* Contact Component Style Ends */
 
+/* Partner Component Style Starts */
 #partner {
   border: 0;
 }
@@ -115,11 +233,99 @@ nav #contact-btn {
   background-color: #110f34;
   border-radius: 10%;
   padding: 10px;
+  transition: background-color 0.3s ease-in-out;
 }
 
+.carousel-control-prev.custom-control:hover .carousel-control-prev-icon,
+.carousel-control-next.custom-control:hover .carousel-control-next-icon {
+  background-color: #4843b3;
+}
+/* Partners Component Style Ends */
+
+/* Footer Component Style Starts */
 footer section, footer .copyrights {
   background-color: #0a0920;
   color: #ffffff;
+}
+/* Footer Component Style Ends */
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1200px) {
+  nav .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home-card h1 {
+    font-size: 1.8rem;
+  }
+
+  .products-container {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-link {
+    margin-right: 10px;
+    font-size: 0.85rem;
+  }
+
+  .products-container .row {
+    padding: 25px;
+  }
+
+  .products-container .row .col-md-3 .card {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .card .btn {
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px 0;
+  }
+
+  .card .card-img-top {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0;
+  }
+
+  .contact .container .row .col .card {
+    border: 0;
+    box-shadow: none;
+  }
+
+  footer {
+    margin: 0;
+  }
 }
 
 
